@@ -1,14 +1,26 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 1
-  brandStrength: 0.6959139
+  brandStrength: 0
   lightness: 0.4226638
-  rhythmicContrast: 1
   brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
+    - '#E2B576'
+    - '#C69055'
+    - '#0D0605'
+    - '#42301F'
+    - '#FCF3C6'
+  rhythmicContrast: 1
 typography_spectrum: 0.2422127
+layout_spectrum: 1
 name: 'Litmus '
