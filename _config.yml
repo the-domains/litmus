@@ -1,3 +1,7 @@
+name: 'Litmus '
+favicon: null
+layout_spectrum: 1
+typography_spectrum: 0.2422127
 collections:
   - index:
       path: /
@@ -10,17 +14,27 @@ collections:
       path: /rss.xml
       format: rss
       number: 10
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
 color:
-  saturation: 1
-  brandStrength: 0
-  lightness: 0.4226638
   brandColors:
     - '#E2B576'
     - '#C69055'
     - '#0D0605'
     - '#42301F'
     - '#FCF3C6'
+  brandStrength: 0
+  lightness: 0.4226638
+  saturation: 1
   rhythmicContrast: 1
-typography_spectrum: 0.2422127
-layout_spectrum: 1
-name: 'Litmus '
+purpose: []
